@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8" />
+    <title>Welcome to my Product site</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+</head>
+<body>
+
+<div th:insert="fragments/navbar.html :: navbar"></div>
+<div th:insert="fragments/navbar.html :: menuModel"></div>
+
+
+<div class="container my-5">
+    <div class="jumbotron">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/img_mountains_wide.jpg" class="d-block w-100" alt="Mountain Wide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img_nature_wide.jpg" class="d-block w-100" alt="Nature Wide">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/img_snow_wide.jpg" class="d-block w-100" alt="Snow Wide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container" >
+    <div class="row">
+        <div class="col-lg-6">
+            <h3><a href="#">REIMAGINING GLOBAL EMPLOYMENT</a></h3>
+            <p>We are tackling COVID-19 jobs recovery and beyond with a group of committed global partners who have a shared vision of creating equity in opportunity and breaking down systemic barriers to employment. BlackRock, McKinsey & Company, Microsoft Corp., and Verizon have together pledged $77 million in new funding and $50 million in in-kind resources to transform employment systems, support new research, and serve 75,000 people.</p>
+            <p>
+                <video width="420" height="240" controls>
+                    <source src="https://vimeo.com/510509233" type="video/mp4">
+                </video>
+            </p>
+        </div>
+        <div class="col-lg-3">
+            <h3><a href="#">OUR MISSION</a></h3>
+            <p>We transform education to employment systems to prepare, place, and support people into life-changing careers that would otherwise be inaccessible. We have a methodology that we believe can serve hundreds of thousands—and eventually millions—of people who are unemployed, underemployed, or need to learn new skills. Our program creates real business value for employers and lasting career impact for participants.</p>
+            <a href="#" class="btn btn-info">Read More</a>
+        </div>
+        <div class="col-lg-3">
+            <div class="card" style="width: 14rem;">
+                <img src="images/misc-DM-cropped.jpg" class="card-img-top" alt="Our Values">
+                <div class="card-body">
+                    <h5 class="card-title">OUR VALUES</h5>
+                    <p class="card-text">We know that people do their best when treated with kindness and respect. We support and develop each other personally and professionally, allowing our unique talents and capabilities to flourish.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div th:insert="fragments/footer.html :: footer"></div>
+
+<!-- SCRIPTS AND STYLES-->
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>

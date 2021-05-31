@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8" />
+    <title>Products Form</title>
+</head>
+<body>
+
+<div th:insert="fragments/navbar.html :: navbar"></div>
+<div th:insert="fragments/navbar.html :: menuModel"></div>
+
+<div class="jumbotron">
+    <h1 class="display-4">New Product</h1>
+
+    <!--  set the attribute enctype=”multipart/form-data” form the form tag,
+    to tell the browser that this form may contain file upload -->
+    <form id="newItemForm" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="newItemNameInput">Name</label>
+            <input type="text" class="form-control" id="newItemNameInput" name="newItemNameInput">
+        </div>
+        <div class="form-group">
+            <label for="newItemDescription">Description</label>
+            <textarea type="text" class="form-control" id="newItemDescription" name="newItemDescription"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="imagefile">Image Upload</label>
+            <input type="file" id="imagefile" name="imagefile">
+        </div>
+
+        <div class="form-group">
+            <label for="newItemStyle">Style</label>
+            <textarea type="text" class="form-control" id="newItemStyle" name="newItemStyle"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="newItemPrice">Price</label>
+            <input type="text" class="form-control" id="newItemPrice" name="newItemPrice">
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Save Item</button>
+    </form>
+</div> <!-- End of Product Form -->
+
+<div th:insert="fragments/footer.html :: footer"></div>
+
+<!-- SCRIPTS AND STYLES-->
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<link href="css/styles.css" rel="stylesheet">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+<script src="js/productController.js"></script>
+<script src="js/productForm.js"></script>
+
+</body>
+</html>

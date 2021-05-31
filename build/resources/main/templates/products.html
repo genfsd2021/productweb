@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Products</title>
+  </head>
+  <body>
+
+  <div th:insert="fragments/navbar.html :: navbar"></div>
+  <div th:insert="fragments/navbar.html :: menuModel"></div>
+
+
+<div class="jumbotron">
+  <h1 class="display-4">Products</h1>
+  <div id="list-items">
+    <div id='row' class="row">
+
+    	<!--<div  class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" class="card-img-top"
+                alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Cat Tee Black T-Shirt</h5>
+                <p class="card-text">4 MSL</p>
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#productModal">More</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" class="card-img-top"
+                alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Dark Thug Blue-Navy T-Shirt</h5>
+                <p class="card-text">Front print and paisley print</p>
+                <a href="#" class="btn btn-primary">More</a>
+            </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="card" style="width: 18rem;">
+            <img src="http://www.jennybeaumont.com/wp-content/uploads/2015/03/placeholder.gif" class="card-img-top"
+                alt="image">
+            <div class="card-body">
+                <h5 class="card-title">Sphynx Tie Dye Wine T-Shirt</h5>
+                <p class="card-text">GPX Poly 1</p>
+                <a href="#" class="btn btn-primary">More</a>
+            </div>
+        </div>
+      </div>-->
+      
+    </div>  <!-- End of row -->
+  </div> <!-- End of List item div -->
+</div>  <!-- End of Jumbotron div -->
+
+<!-- Modal pop up for each product details -->
+<div class="modal fade" id="productModal"  tabindex="-1" role="dialog" aria-labelledby="productModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+    	<div class="modal-content">
+			<div class="modal-header">
+        		<p id="modalName">Cat Tee Black T-Shirt</p>
+            </div>
+            <div class="modal-body">
+            <img id="modalImg" src="" width=80%/>
+
+            <hr>
+            <b>Style:</b> <span id="modalStyle">Black with custom print</span> <br/>
+            <b>Price:</b> <span id="modalPrice">10</span>
+
+            </div>
+            <div class="modal-footer">
+            	<a class="btn btn-primary" data-dismiss="modal">Close</a>
+            </div>
+        </div>
+	</div>
+
+    <div th:insert="fragments/footer.html :: footer"></div>
+
+<!-- SCRIPTS AND STYLES-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!--<link href="css/styles.css" rel="stylesheet">-->
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+<script src="js/productController.js"></script>
+<script src="js/productListing.js"></script>
+</body>
+</html>

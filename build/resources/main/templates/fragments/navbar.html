@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Title</title>
+</head>
+<body>
+
+    <nav th:fragment="navbar"  class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <a class="navbar-brand" href="https://www.generation.org/">BrandLogo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">                                               <!-- margin right - push items to the right -->
+                <li class="nav-item active"><a class="nav-link"  th:href="@{index}"> HOME </a></li>
+                <li class="nav-item "><a class="nav-link"  th:href="@{aboutus}"> ABOUT </a></li>
+                <li class="nav-item"><a class="nav-link" th:href="@{products}"> PRODUCTS </a></li>
+                <li class="nav-item"><a class="nav-link" h th:href="@{productform}"> PRODUCTS FORM </a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal"> CONTACT </a></li>
+
+                <!-- To check if user has logged in -->
+                <div>
+                    <form id="logOut" th:action="@{/logout}" method="post">
+                        <li class="nav-item"><a class="nav-link" onclick="document.getElementById('logOut').submit();"> LOG OUT </a></li>
+                    </form>
+                </div>
+
+                <div>
+                    <li class="nav-item"><a class="nav-link" th:href="@{login}"> LOG IN </a></li>
+                </div>
+
+
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div th:fragment="menuModel" class="modal fade" id="exampleModal"  tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <p>Contact details</p>
+                </div>
+                <div class="modal-body">
+                    <p>For more enquiries, please contact +65-97887434 or email at contactsg@generation.org</p>
+                </div>
+                <div class="modal-footer">
+                    <a class="btn btn-primary" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
