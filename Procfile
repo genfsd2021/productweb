@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar build/libs/productweb-0.0.1-SNAPSHOT.jar $JAVA_OPTS -Dserver.port=$PORT $JAVA_OPTS -Dspring.datasource.url=jdbc:mysql://b50ddea7917fc3:ff975c6f@us-cdbr-east-04.cleardb.com/heroku_240716fd407c430?reconnect=true
+web: java $JAVA_OPTS -jar build/libs/productweb-0.0.1-SNAPSHOT.jar $JAVA_OPTS -Dserver.port=$PORT
