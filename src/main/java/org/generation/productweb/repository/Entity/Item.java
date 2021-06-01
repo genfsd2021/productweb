@@ -73,7 +73,7 @@ public class Item {
 
     public String getImageUrl()
     {
-        return "/productImages/" + imageUrl;
+        return "/productImages" + imageUrl;
     }
 
     public void setImageUrl( String imageUrl )
