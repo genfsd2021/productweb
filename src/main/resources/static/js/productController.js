@@ -96,7 +96,7 @@ class ProductsController
                 console.log("2. receive data")
                 console.log(data);
 
-                data.forEach(function (item, index) {
+                /*data.forEach(function (item, index) {
 
                     const itemObj = {
                         oId: item.id,
@@ -107,10 +107,10 @@ class ProductsController
                         oPrice: item.price
                    };
 
-                productController._items.push(itemObj);
+                productController._items.push(itemObj);*/
               });
 
-              productController.render();
+              //productController.render();
 
             })
             .catch(function(error) {
