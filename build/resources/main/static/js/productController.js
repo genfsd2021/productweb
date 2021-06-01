@@ -61,7 +61,7 @@ class ProductsController
          formData.append('imagefile', imagePath);
 
          //fetch('http://localhost:8080/item/add', {
-         fetch('https://productwebfinal.herokuapp.com/item/add', {
+         fetch('https://productjl.herokuapp.com/item/add', {
              method: 'POST', // or 'PUT'
              /*headers: {
                  //'content-type': 'undefined'
@@ -89,13 +89,12 @@ class ProductsController
          productController._items = [];
 
         //fetch('http://127.0.0.1:8080/item/all')
-        fetch('https://productwebfinal.herokuapp.com/item/all')
+        fetch('https://productjl.herokuapp.com/item/all')
             .then((resp) => resp.json())
             .then(function(data) {
                 console.log("2. receive data")
                 console.log(data);
-
-                /*data.forEach(function (item, index) {
+                data.forEach(function (item, index) {
 
                     const itemObj = {
                         oId: item.id,
@@ -106,10 +105,10 @@ class ProductsController
                         oPrice: item.price
                    };
 
-                productController._items.push(itemObj);*/
-              //});
+                productController._items.push(itemObj);
+              });
 
-              //productController.render();
+              productController.render();
 
             })
             .catch(function(error) {

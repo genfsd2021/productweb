@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<html lang="en" xmlns:th="https://www.thymeleaf.org/"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -22,13 +23,13 @@
                 <li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#exampleModal"> CONTACT </a></li>
 
                 <!-- To check if user has logged in -->
-                <div>
+                <div sec:authorize="isAuthenticated()">
                     <form id="logOut" th:action="@{/logout}" method="post">
                         <li class="nav-item"><a class="nav-link" onclick="document.getElementById('logOut').submit();"> LOG OUT </a></li>
                     </form>
                 </div>
 
-                <div>
+                <div sec:authorize="isAnonymous()>
                     <li class="nav-item"><a class="nav-link" th:href="@{login}"> LOG IN </a></li>
                 </div>
 

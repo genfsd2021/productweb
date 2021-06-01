@@ -4,6 +4,8 @@ org/generation/productweb/Service/ItemServiceMySQL.java
  org.generation.productweb.Service.ItemServiceMySQL
 org/generation/productweb/controller/ItemController.java
  org.generation.productweb.controller.ItemController
+org/generation/productweb/security/WebSecurityConfig.java
+ org.generation.productweb.security.WebSecurityConfig
 org/generation/productweb/controller/dto/ItemDTO.java
  org.generation.productweb.controller.dto.ItemDTO
 org/generation/productweb/security/MvcConfig.java
