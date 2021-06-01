@@ -82,8 +82,6 @@ class ProductsController
              });
     }
 
-    console.log("Display item");
-
     displayItem()
     {
 
