@@ -5,70 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1fc2ecd-f1ca-4d66-b55f-73026c69253b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/dependencies-accessors/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/classAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/jarAnalysis.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/javaCompile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/7.0.2/javaCompile/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bootJarMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/bootRunMainClassName" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/ProductwebApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/Service/ItemService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/Service/ItemServiceMySQL.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/component/FileUploadUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/controller/ItemController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/controller/dto/ItemDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/repository/Entity/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/repository/ItemRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/generation/productweb/security/MvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/org/generation/productweb/ProductwebApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/productweb-0.0.1-SNAPSHOT-plain.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/productweb-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/org.generation.productweb.ProductwebApplicationTests.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/org.generation.productweb.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/images/gen-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/images/img_mountains_wide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/images/img_nature_wide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/images/img_snow_wide.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/images/misc-DM-cropped.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/productController.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/productForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/productListing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/aboutus.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragments/footer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/fragments/navbar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/productform.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/templates/products.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-org.generation.productweb.ProductwebApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
