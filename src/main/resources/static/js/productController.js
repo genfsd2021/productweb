@@ -84,7 +84,6 @@ class ProductsController
 
     displayItem()
     {
-
         //fetch data from database using the REST API endpoint from Spring Boot
          var productController = this;
          productController._items = [];
@@ -108,7 +107,7 @@ class ProductsController
                    };
 
                 productController._items.push(itemObj);*/
-              });
+              //});
 
               //productController.render();
 
